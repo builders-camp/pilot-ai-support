@@ -78,10 +78,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "TicketPilot" },
-      { name: "description", content: "AI-powered ticket triage for customer success teams" },
+      { name: "description", content: "A clean shared inbox for customer success teams" },
       { name: "author", content: "TicketPilot" },
       { property: "og:title", content: "TicketPilot" },
       { property: "og:description", content: "A clean shared inbox for customer success teams" },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
      ],
     links: [
       {
