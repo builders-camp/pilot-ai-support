@@ -81,9 +81,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "AI-powered ticket triage for customer success teams" },
       { name: "author", content: "TicketPilot" },
       { property: "og:title", content: "TicketPilot" },
-      { property: "og:description", content: "AI-powered ticket triage for customer success teams" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:description", content: "A clean shared inbox for customer success teams" },
      ],
     links: [
       {
